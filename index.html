@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link href='css/style.css' rel="stylesheet">
+</head>
+
+<body>
+    <div id='main-container'>
+        <div id='add-container'>
+            <h2>Adicione suas tarefas</h2>
+            <form action=""></form>
+            <input type="text" name="task" id="task" placeholder="Assunto:">
+            <button type="submit" name="add"><img src='css/plus.png' class="icons"> </button>
+        </div>
+        <div id='task-container'>
+            <h2>Veja suas tarefas</h2>
+            <div class="task hide">
+                <img src="css/check.png" class="icons pendent">
+                <span class="task-title">Titulo</span>
+                <img src="css/trash.png" class="icons trash">
+            </div>
+            <p id='empty-tasks'>Não há tarefas cadastradas</p>
+        </div>
+    </div>
+    <script src='js/script.js'></script>
+</body>
+
+</html>
