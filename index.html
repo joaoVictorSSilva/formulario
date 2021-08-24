@@ -15,16 +15,16 @@
             <h2>Adicione suas tarefas</h2>
             <form action=""></form>
             <input type="text" name="task" id="task" placeholder="Assunto:">
-            <button type="submit" name="add"><img src='css/plus.png' class="icons"> </button>
+            <button type="submit" name="add" id="add"><img src='css/plus.png' class="icons"> </button>
         </div>
         <div id='task-container'>
             <h2>Veja suas tarefas</h2>
             <div class="task hide">
-                <img src="css/check.png" class="icons pendent">
+                <img src="css/check.png" class="icons pendent" name="doneBtn" id="doneBtn">
                 <span class="task-title">Titulo</span>
-                <img src="css/trash.png" class="icons trash">
+                <img src="css/trash.png" class="icons trash" name="trashBtn" id="trashBtn">
             </div>
-            <p id='empty-tasks'>Não há tarefas cadastradas</p>
+            <p id='empty-tasks' name='empty-tasks'>Não há tarefas cadastradas</p>
         </div>
     </div>
     <script src='js/script.js'></script>

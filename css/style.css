@@ -90,10 +90,33 @@ h2 {
     display: none;
 }
 
+.done {
+    opacity: 100%;
+}
+
 .task:hover .trash {
     display: block;
 }
 
 #empty-tasks {
     text-align: center;
+}
+
+
+/*mobile version*/
+
+@media(max-width: 480px) {
+    body {
+        padding: 20px;
+    }
+    h2 {
+        text-align: center;
+    }
+    #main-container {
+        max-width: 100%;
+        margin-top: 0;
+    }
+    .trash {
+        display: block;
+    }
 }
